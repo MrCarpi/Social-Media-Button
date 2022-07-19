@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.social-media-container{
+    width: 500px;
+    height: 200px;
+    margin:400px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-container ul{
+    display: flex;
+    gap: 20px;
+}
+.social-media-container ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 0px 5px 7px rgba(0,0,0,0.5);
+    background: #fff;
+    transition: .6s;
+}
+.social-media-container ul .list1{
+    padding: 20px;
+    border-radius: 80px;
+}
+.social-media-container ul .list1:hover{
+    cursor: pointer;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    transition: .7s;
+    padding: 20px 35px;
+}
+.social-media-container ul li a{
+    text-decoration: none;
+    transition: .3s;
+}
+
+.social-media-container ul .list1:hover .icon-home{
+    padding: 15px 35px;
+    transition: .5s;
+    display: none;
+}
+.social-media-container ul .list1 .title-home{
+    display: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    transition: .4s;
+    text-shadow: 1px 2px 4px #333;
+}
+.social-media-container ul .list1:hover .title-home{
+    display: block;
+    animation: home 1s linear;
+    transition: .5s;
+}
+
+@keyframes home{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
+
+
+/*--Facebook--*/
+
+.social-media-container ul .list2{
+    padding: 20px;
+    border-radius: 80px;
+}
+.social-media-container ul .list2:hover{
+    cursor: pointer;
+background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #bf41fa 100%);
+
+transition: .7s;
+    padding: 20px 35px;
+}
+.social-media-container ul .list2:hover .icon-facebook{
+    padding: 15px 35px;
+    transition: .5s;
+    display: none;
+}
+.social-media-container ul .list2 .title-facebook{
+    display: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    transition: .4s;
+    text-shadow: 1px 2px 4px #333;
+}
+.social-media-container ul .list2:hover .title-facebook{
+    display: block;
+    animation: facebook 1s linear;
+    transition: .5s;
+}
+
+@keyframes facebook{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/*--Instagram--*/
+
+.social-media-container ul .list3{
+    padding: 20px;
+    border-radius: 80px;
+    transition: .7s;
+}
+.social-media-container ul .list3:hover{
+    cursor: pointer;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: .7s;
+    padding: 20px 35px;
+}
+.social-media-container ul .list3:hover .icon-instagram{
+    padding: 15px 35px;
+    transition: .5s;
+    display: none;
+}
+.social-media-container ul .list3 .title-instagram{
+    display: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    transition: .4s;
+    text-shadow: 1px 2px 4px #333;
+}
+.social-media-container ul .list3:hover .title-instagram{
+    display: block;
+    animation: instagram 1s linear;
+    transition: .5s;
+}
+
+@keyframes instagram{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
+
+
+/*--twitter--*/
+
+.social-media-container ul .list4{
+    padding: 20px;
+    border-radius: 80px;
+}
+.social-media-container ul .list4:hover{
+    cursor: pointer;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    transition: .7s;
+    padding: 20px 35px;
+}
+.social-media-container ul .list4:hover .icon-twitter{
+    padding: 15px 35px;
+    transition: .5s;
+    display: none;
+}
+.social-media-container ul .list4 .title-twitter{
+    display: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    transition: .4s;
+    text-shadow: 1px 2px 4px #333;
+}
+.social-media-container ul .list4:hover .title-twitter{
+    display: block;
+    animation: twitter 1s linear;
+    transition: .5s;
+}
+
+@keyframes twitter{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+/*--github--*/
+
+.social-media-container ul .list5{
+    padding: 20px;
+    border-radius: 80px;
+}
+.social-media-container ul .list5:hover{
+    cursor: pointer;
+    background-color: #000000;
+    background-image: linear-gradient(45deg, #000000 0%, #ffffff 32%, #bfbcbc 66%, #000000 100%);
+    padding: 20px 35px;
+    transition: 1.5s;
+
+}
+.social-media-container ul .list5:hover .icon-github{
+    transition: .5s;
+    display: none;
+}
+
+.social-media-container ul .list5 .title-github{
+    display: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    transition: .4s;
+    text-shadow: 1px 3px 5px #222;
+}
+.social-media-container ul .list5:hover .title-github{
+    display: block;
+    animation: github 1s linear;
+    transition: .5s;
+}
+
+@keyframes github{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+.icon {
+    transition: .3s;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: #777;
+  }
